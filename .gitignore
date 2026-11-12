@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Revit / AutoCAD backups & temp
+*.rvt.bak
+*.000*.rvt
+*.0001.rfa
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+*.ac$
+*.err
+*.log
+
+# Large model files (keep out of git)
+*.rvt
+*.rfa
+*.dwg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
